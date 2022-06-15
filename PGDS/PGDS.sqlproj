@@ -76,4 +76,7 @@
   <ItemGroup>
     <RefactorLog Include="PGDS.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="PGDS.publish.xml" />
+  </ItemGroup>
 </Project>

@@ -7,5 +7,5 @@
     [Address] NVARCHAR(250) NOT NULL, 
     [PhoneNumber] NVARCHAR(50) NOT NULL, 
     [City] NVARCHAR(50) NOT NULL, 
-    CONSTRAINT [Companies_CompanyTypes] FOREIGN KEY ([CompanyTypeId]) REFERENCES [CompanyTypes]([Id])
+    CONSTRAINT [Companies_CompanyTypes] FOREIGN KEY ([CompanyTypeId]) REFERENCES [CompanyTypes]([CompanyTypeId])
 )

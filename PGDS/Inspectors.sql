@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Inspectors]
 (
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+	[InspectorId] INT NOT NULL PRIMARY KEY IDENTITY, 
     [IdentityNo] BIGINT NOT NULL, 
     [RegisterNo] BIGINT NOT NULL, 
     [InspectorFirstName] NVARCHAR(50) NOT NULL, 
@@ -9,7 +9,7 @@
     [DistrictId] INT NOT NULL, 
     [DirectorshipId] INT NOT NULL, 
     [InspectionServiceId] INT NOT NULL,
-    CONSTRAINT [Inspectors_Districts] FOREIGN KEY ([DistrictId]) REFERENCES [Districts]([Id]),
-    CONSTRAINT [Inspectors_Directorships] FOREIGN KEY ([DirectorshipId]) REFERENCES [Directorships]([Id]),
-    CONSTRAINT [Inspectors_InspectionServices] FOREIGN KEY ([InspectionServiceId]) REFERENCES [InspectionServices]([Id])
+    CONSTRAINT [Inspectors_Districts] FOREIGN KEY ([DistrictId]) REFERENCES [Districts]([DistrictId]),
+    CONSTRAINT [Inspectors_Directorships] FOREIGN KEY ([DirectorshipId]) REFERENCES [Directorships]([DirectorshipId]),
+    CONSTRAINT [Inspectors_InspectionServices] FOREIGN KEY ([InspectionServiceId]) REFERENCES [InspectionServices]([InspectionServiceId])
 )

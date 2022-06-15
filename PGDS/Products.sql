@@ -14,5 +14,5 @@
     [InspectedQuantity] INT NOT NULL, 
     [InvoiceQuantity] INT NULL, 
     [RelatedRegulationId] INT NOT NULL,
-    CONSTRAINT [Products_Categories] FOREIGN KEY ([CategoryID]) REFERENCES [Categories] ([CategoryID]),
+    CONSTRAINT [Products_Categories] FOREIGN KEY ([CategoryId]) REFERENCES [Categories] ([CategoryId]),
 )
