@@ -15,5 +15,9 @@ namespace Entities.Concrete.InspectorRelated
         public string InspectorFirstName { get; set; }
         public string InspectorLastName { get; set; }
         public string TitleName { get; set; }
+        public int DistrictId { get; set; }
+        public int DirectorshipId { get; set; }
+        public int InspectionServiceId { get; set; }
+
     }
 }

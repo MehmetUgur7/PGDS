@@ -60,6 +60,18 @@
   <ItemGroup>
     <Build Include="Products.sql" />
     <Build Include="Categories.sql" />
+    <Build Include="InspectionServices.sql" />
+    <Build Include="Districts.sql" />
+    <Build Include="Directorships.sql" />
+    <Build Include="Inspectors.sql" />
+    <Build Include="SampleInfos.sql" />
+    <Build Include="Regulations.sql" />
+    <Build Include="Justifications.sql" />
+    <Build Include="InspectionTypes.sql" />
+    <Build Include="Determinations.sql" />
+    <Build Include="CompanyTypes.sql" />
+    <Build Include="CompanyOfficers.sql" />
+    <Build Include="Companies.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="PGDS.refactorlog" />

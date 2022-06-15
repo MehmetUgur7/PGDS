@@ -11,5 +11,9 @@ namespace Entities.Concrete.InspectionRelated
     {
         public int SampleInfoId { get; set; }
         public string SampleInfoName { get; set; }
+        public int SampleQuantity { get; set; }
+        public int SampleStampNo { get; set; }
+        public int ProductId { get; set; }
+
     }
 }
