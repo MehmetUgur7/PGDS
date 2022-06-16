@@ -1,4 +1,5 @@
-﻿using Entities.Concrete.CompanyRelated;
+﻿using Core.Entities.Concrete;
+using Entities.Concrete.CompanyRelated;
 using Entities.Concrete.InspectionRelated;
 using Entities.Concrete.InspectorRelated;
 using Entities.Concrete.Institution;
@@ -33,7 +34,10 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Directorship> Directorships { get; set; }
         public DbSet<District> Districts { get; set; }
         public DbSet<InspectionService> InspectionServices { get; set; }
-        
+        public DbSet<OperationClaim> OperationClaims { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
+
 
     }
 }

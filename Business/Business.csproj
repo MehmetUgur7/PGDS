@@ -97,6 +97,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IAuthService.cs" />
     <Compile Include="Abstract\ICategoryService.cs" />
     <Compile Include="Abstract\ICompanyOfficerService.cs" />
     <Compile Include="Abstract\ICompanyService.cs" />
@@ -111,8 +112,12 @@
     <Compile Include="Abstract\IProductService.cs" />
     <Compile Include="Abstract\IRegulationService.cs" />
     <Compile Include="Abstract\ISampleInfoService.cs" />
+    <Compile Include="Abstract\IUserService.cs" />
     <Compile Include="BusinessAspects\Autofac\SecuredOperation.cs" />
+    <Compile Include="Concrete\AuthManager.cs" />
+    <Compile Include="Concrete\CategoryManager.cs" />
     <Compile Include="Concrete\ProductManager.cs" />
+    <Compile Include="Concrete\UserManager.cs" />
     <Compile Include="Constants\Messages.cs" />
     <Compile Include="DependencyResolvers\Autofac\AutofacBusinessModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

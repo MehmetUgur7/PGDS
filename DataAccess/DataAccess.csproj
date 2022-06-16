@@ -169,6 +169,7 @@
     <Compile Include="Abstract\IProductDal.cs" />
     <Compile Include="Abstract\IRegulationDal.cs" />
     <Compile Include="Abstract\ISampleInfoDal.cs" />
+    <Compile Include="Abstract\IUserDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfCategoryDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfCompanyDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfCompanyOfficerDal.cs" />
@@ -183,6 +184,7 @@
     <Compile Include="Concrete\EntityFramework\EfProductDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfRegulationDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfSampleInfoDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfUserDal.cs" />
     <Compile Include="Concrete\EntityFramework\PgdsContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

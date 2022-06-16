@@ -72,6 +72,9 @@
     <Build Include="CompanyTypes.sql" />
     <Build Include="CompanyOfficers.sql" />
     <Build Include="Companies.sql" />
+    <Build Include="Users.sql" />
+    <Build Include="UserOperationClaims.sql" />
+    <Build Include="OperationClaims.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="PGDS.refactorlog" />

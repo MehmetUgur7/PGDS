@@ -54,6 +54,8 @@
     <Compile Include="Concrete\InspectionRelated\InspectionType.cs" />
     <Compile Include="Concrete\InspectionRelated\Justification.cs" />
     <Compile Include="Concrete\ProductRelated\Product.cs" />
+    <Compile Include="DTOs\UserForLoginDto.cs" />
+    <Compile Include="DTOs\UserForRegisterDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Concrete\InspectionRelated\Regulation.cs" />
   </ItemGroup>
